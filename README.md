@@ -1,5 +1,7 @@
 # MDC19
 
+<img src="https://github.com/steevehook/mdc19/raw/master/images/mdc19.png?sanitize=true" width="800px"/>
+
 ## Goals
 
 This presentation mainly focuses on my personal journey
@@ -15,9 +17,6 @@ I'll be mainly talking about:
 - Language basics
 - Complete examples
 - Best practices & caveats
-
-
-<img src="https://github.com/steevehook/mdc19/raw/master/images/mdc19.png?sanitize=true" width="800px"/>
 
 ### Examples 🚀
 
