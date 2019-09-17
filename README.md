@@ -1,6 +1,6 @@
 # MDC19
 
-<img src="https://github.com/steevehook/mdc19/raw/master/gophertuts.svg?sanitize=true" width="800px"/>
+<img src="https://github.com/steevehook/mdc19/raw/master/gophertuts.svg?sanitize=true" width="150px"/>
 
 ## Goals
 
@@ -51,8 +51,8 @@ I'll be mainly talking about:
 
 #### More resources 📖
 
-[Go learning resources](https://github.com/gophertuts/go-basics/tree/master/go-learning-resources)
-[Go Users](https://github.com/golang/go/wiki/GoUsers)
+- [Go learning resources](https://github.com/gophertuts/go-basics/tree/master/go-learning-resources)
+- [Go Users](https://github.com/golang/go/wiki/GoUsers)
 
 #### Stay in touch ☕
 
