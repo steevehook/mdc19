@@ -17,6 +17,7 @@ func main() {
 	j1 := `{"name": "Mary", "age": 21, "sex": true, "hobby": "human"}`
 	j2 := `{"name": "Steve", "age": 24, "anything_else": "not_gonna_unmarshal"}`
 	var p1 person
+	// handle errors, you son of the bitch
 	_ = json.Unmarshal([]byte(j1), &p1)
 	var p2 person
 	_ = json.Unmarshal([]byte(j2), &p2)

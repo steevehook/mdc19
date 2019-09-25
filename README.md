@@ -2,7 +2,7 @@
 
 <img src="https://github.com/steevehook/mdc19/raw/master/gophertuts.svg?sanitize=true" width="150px"/>
 
-## Goals
+## Goals ⚜
 
 This presentation mainly focuses on my personal journey
 to Go aka Golang. What are the challenges and caveats of the
@@ -71,8 +71,8 @@ I'll be mainly talking about:
 
 #### Stay in touch ☕
 
-If you like what I do and would like to see/learn more
-about Go, make sure to follow my activity on:
+If you like what I do and would like to **see/learn** more
+about **Go**, make sure to follow my activity on:
 
 - [YouTube](https://www.youtube.com/c/GopherTuts)
 - [Personal GitHub](https://github.com/steevehook)
