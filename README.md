@@ -9,7 +9,7 @@ to Go aka Golang. What are the challenges and caveats of the
 language before considering to switch
 
 In the end there is no perfect language, so in this presentation
-I'll try to help you make an education decision for
+I'll try to help you make an educated decision for
 yourself
 
 I'll be mainly talking about:
@@ -33,7 +33,6 @@ I'll be mainly talking about:
 - [Arrays/Slices looping](https://github.com/steevehook/mdc19/blob/master/examples/arrays-slices-looping)
 - [Arrays/Slices JSON](https://github.com/steevehook/mdc19/blob/master/examples/arrays-slices-json)
 - [Maps](https://github.com/steevehook/mdc19/blob/master/examples/maps)
-- [Maps looping](https://github.com/steevehook/mdc19/blob/master/examples/maps-looping)
 - [Maps looping](https://github.com/steevehook/mdc19/blob/master/examples/maps-looping)
 - [Maps comma, ok](https://github.com/steevehook/mdc19/blob/master/examples/maps-comma-ok)
 - [Nil map](https://github.com/steevehook/mdc19/blob/master/examples/nil-map)
