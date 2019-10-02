@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	grades := map[string]int{
-		"Math": 8,
+		"Math":    8,
 		"English": 10,
 		"Physics": 9,
 	}

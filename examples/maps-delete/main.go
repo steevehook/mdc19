@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	dictionary := map[string]string{
-		"human": "being that has 1 life",
+		"human":      "being that has 1 life",
 		"programmer": "being that has no life",
 	}
 	fmt.Printf("%+v\n", dictionary)

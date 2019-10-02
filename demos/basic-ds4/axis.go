@@ -10,8 +10,8 @@ const (
 	L2 = 4
 	R2 = 5
 
-	LeftY  = 0
-	LeftX  = 1
+	LeftY = 0
+	LeftX = 1
 
 	RightY = 2
 	RightX = 3

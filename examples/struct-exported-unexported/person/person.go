@@ -6,6 +6,7 @@ type Person struct {
 	age   uint
 	Hobby string
 }
+
 func NewPerson(name string, age uint, hobby string) Person {
 	return Person{name: name, age: age, Hobby: hobby}
 }

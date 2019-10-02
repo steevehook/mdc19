@@ -8,10 +8,3 @@ func identity(n int) (int, error) {
 	}
 	return n, nil
 }
-
-
-
-
-
-
-

@@ -56,10 +56,12 @@ Enjoy!
 - [Pointer vs Value types](https://github.com/steevehook/mdc19/blob/master/examples/pointer-vs-value)
 - [Interfaces](https://github.com/steevehook/mdc19/blob/master/examples/interfaces)
 - [Errors](https://github.com/steevehook/mdc19/blob/master/examples/errors)
+- [defer](https://github.com/steevehook/mdc19/blob/master/examples/defer)
+- [panic & recover](https://github.com/steevehook/mdc19/blob/master/examples/panic-recover)
 - [Concurrency](https://github.com/steevehook/mdc19/blob/master/examples/concurrency)
 - [Testing](https://github.com/steevehook/mdc19/blob/master/examples/testing)
-- [TCP](https://github.com/steevehook/mdc19/blob/master/examples/tcp)
 - [HTTP](https://github.com/steevehook/mdc19/blob/master/examples/http)
+- [TCP](https://github.com/steevehook/mdc19/blob/master/examples/tcp)
 
 ### Demos ⚛
 

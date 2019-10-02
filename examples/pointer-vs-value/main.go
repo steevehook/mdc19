@@ -5,6 +5,7 @@ import "fmt"
 type person struct {
 	name string
 }
+
 func (p person) changeNameValue(name string) {
 	p.name = name
 }

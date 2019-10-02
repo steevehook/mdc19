@@ -8,10 +8,10 @@ type person struct {
 }
 
 func main() {
-	people := []struct{
+	people := []struct {
 		name string
-		age uint
-	} {
+		age  uint
+	}{
 		{name: "John", age: 21},
 		{"Jane", 19}, // don't use this
 	}
