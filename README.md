@@ -22,6 +22,7 @@ I'll be mainly talking about:
 
 - [Hello World](https://github.com/steevehook/mdc19/blob/master/examples/hello-world)
 - [Packages](https://github.com/steevehook/mdc19/blob/master/examples/packages)
+- [Go Mod](https://github.com/steevehook/mdc19/blob/master/examples/go-mod)
 - [Basic Types](https://github.com/steevehook/mdc19/blob/master/examples/basic-types)
 - [Const/Var](https://github.com/steevehook/mdc19/blob/master/examples/const-var)
 - [Arrays](https://github.com/steevehook/mdc19/blob/master/examples/arrays)
@@ -49,6 +50,7 @@ I'll be mainly talking about:
 - [Pointers](https://github.com/steevehook/mdc19/blob/master/examples/pointers)
 - [Pointer vs Value types](https://github.com/steevehook/mdc19/blob/master/examples/pointer-vs-value)
 - [Interfaces](https://github.com/steevehook/mdc19/blob/master/examples/interfaces)
+- [Errors](https://github.com/steevehook/mdc19/blob/master/examples/errors)
 - [Concurrency](https://github.com/steevehook/mdc19/blob/master/examples/concurrency)
 - [Testing](https://github.com/steevehook/mdc19/blob/master/examples/testing)
 - [TCP](https://github.com/steevehook/mdc19/blob/master/examples/tcp)
@@ -67,6 +69,7 @@ I'll be mainly talking about:
 
 - [Go learning resources](https://github.com/gophertuts/go-basics/tree/master/go-learning-resources)
 - [Go Users](https://github.com/golang/go/wiki/GoUsers)
+- [Go Basics](https://github.com/gophertuts/go-basics)
 
 #### Stay in touch ☕
 
