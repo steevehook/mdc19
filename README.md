@@ -14,9 +14,14 @@ yourself
 
 I'll be mainly talking about:
 
-- Language basics
-- Complete examples
-- Best practices & caveats
+- **`Language basics`**
+- **`Complete examples`**
+- **`Best practices & caveats`**
+
+Grab some popcorn and enjoy the talk, it's going to be freaking
+interesting, can't wait for the demo
+
+Enjoy!
 
 ### Examples 🚀
 
