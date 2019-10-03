@@ -5,14 +5,14 @@
 ## Goals ⚜
 
 This presentation mainly focuses on my personal journey
-to Go aka Golang. What are the challenges and caveats of the
+to **Go** aka **Golang**. What are the challenges and caveats of the
 language before considering to switch
 
 In the end there is no perfect language, so in this presentation
 I'll try to help you make an educated decision for
 yourself
 
-I'll be mainly talking about:
+I'll mainly be talking about:
 
 - **`Language basics`**
 - **`Complete examples`**
