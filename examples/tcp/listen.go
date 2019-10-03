@@ -10,7 +10,7 @@ import (
 func listen(c net.Conn, mem cache) {
 	scanner := bufio.NewScanner(c)
 	for scanner.Scan() {
-		l := strings.TrimSpace(scanner.Text())
+		l := strings.ToLower(strings.TrimSpace(scanner.Text()))
 		values := strings.Split(l, " ")
 		switch {
 		case len(values) == 3 && values[0] == "set":
