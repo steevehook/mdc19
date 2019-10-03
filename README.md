@@ -1,4 +1,4 @@
-# MDC19
+# MDC19 - The way to Go
 
 <img src="https://github.com/steevehook/mdc19/raw/master/gophertuts.svg?sanitize=true" width="150px"/>
 
