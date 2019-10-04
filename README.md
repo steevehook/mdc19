@@ -70,7 +70,7 @@ Enjoy!
 - [Basic DS4](https://github.com/steevehook/mdc19/blob/master/demos/basic-ds4)
 - [Browser Game](https://github.com/steevehook/mdc19/blob/master/demos/browser-game)
 - [DJI Tello & DS4](https://github.com/steevehook/mdc19/blob/master/demos/dji-tello-ds4)
-- [Dummy REST API](https://github.com/steevehook/mdc19/blob/master/demos/dji-tello-ds4)
+- [Dummy Notes REST API](https://github.com/steevehook/mdc19/blob/master/demos/dummy-notes-rest-api)
 
 ### Farewell 😎
 
