@@ -1,10 +1,11 @@
 package controllers
 
 import (
-	"github.com/stretchr/testify/suite"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/stretchr/testify/suite"
 )
 
 type commentsSuite struct {

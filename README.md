@@ -55,6 +55,7 @@ Enjoy!
 - [Pointers](https://github.com/steevehook/mdc19/blob/master/examples/pointers)
 - [Pointer vs Value types](https://github.com/steevehook/mdc19/blob/master/examples/pointer-vs-value)
 - [Interfaces](https://github.com/steevehook/mdc19/blob/master/examples/interfaces)
+- [Interface implementation](https://github.com/steevehook/mdc19/blob/master/examples/interface-implementation)
 - [Type assertion](https://github.com/steevehook/mdc19/blob/master/examples/type-assertion)
 - [Errors](https://github.com/steevehook/mdc19/blob/master/examples/errors)
 - [defer](https://github.com/steevehook/mdc19/blob/master/examples/defer)
