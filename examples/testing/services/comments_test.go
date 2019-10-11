@@ -14,7 +14,7 @@ func (s *commentsSuite) SetupSuite() {
 	s.service = NewComments()
 }
 
-func (s *commentsSuite) Test_GetComment_Success() {
+func (s *commentsSuite) Test_GetComments_Success() {
 	expected := []string{
 		"comment1",
 		"comment2",
