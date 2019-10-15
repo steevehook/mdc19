@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 coverage_dir=".cover"
 coverage_file="cover.out"
@@ -14,7 +14,7 @@ help_message="coverage.sh
 generate_coverage_data() {
     build_tags=$1
     rm -rf ${coverage_dir}
-    mkdir ${coverage_dir}
+    mkdir -p ${coverage_dir}
     if ! go test -cover -covermode="${coverage_mode}" -coverprofile="${coverage_output}" -coverpkg=./... ./... -tags="${build_tags}"
     then
         exit 1
@@ -41,7 +41,7 @@ run() {
                 build_tags="${integration_build_tag}"
             ;;
             --help)
-                echo -e ${help_message}
+                echo ${help_message}
                 exit 0
                 ;;
             *)
