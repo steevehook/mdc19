@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  mariadb:
+    image: mariadb:10.4
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "true"
+      MYSQL_PASSWORD: musquli_password
+      MYSQL_USER: musquli_user
+      MYSQL_DATABASE: notes_db

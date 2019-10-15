@@ -23,7 +23,7 @@ or things which you won't be able to **understand**
 ## Steps to run
 
 ```bash
-# Download all go libraries used (just go-sdl2)
+# Download all go libraries used
 go get ./...
 
 # Compile & run your program
