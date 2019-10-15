@@ -14,6 +14,7 @@ import (
 	"github.com/steevehook/mdc19/dummy-notes-rest-api/config"
 	"github.com/steevehook/mdc19/dummy-notes-rest-api/controllers"
 	"github.com/steevehook/mdc19/dummy-notes-rest-api/logging"
+	"github.com/steevehook/mdc19/dummy-notes-rest-api/services"
 )
 
 type App struct {
@@ -31,7 +32,11 @@ func New() *App {
 	if err != nil {
 		logging.Logger.Error("could not initialize config")
 	}
-	router := controllers.New()
+	notesService := services.NewNotes()
+	routerCfg := controllers.RouterConfig{
+		NotesService: notesService,
+	}
+	router := controllers.New(routerCfg)
 	return &App{
 		Config: manager,
 		Router: router,

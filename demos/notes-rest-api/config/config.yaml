@@ -1,0 +1,4 @@
+listen: "0.0.0.0:8080"
+external:
+  service1: "http://service1.com"
+  service2: "http://service2.com"
