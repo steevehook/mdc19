@@ -35,6 +35,9 @@ go run *.go
 # run unit & integration tests
 ./coverage.sh --intgr
 
+# Spin up the MariaDB docker container
+docker-compose up -d
+
 # run unit tests and show HTML coverage report
 ./coverage.sh --html
 ```
