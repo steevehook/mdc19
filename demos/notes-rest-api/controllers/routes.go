@@ -21,7 +21,9 @@ type RouterConfig struct {
 }
 
 func New(cfg RouterConfig) *httprouter.Router {
-	chain := alice.New(middleware.Recovery(transport.SendPanicError))
+	chain := alice.New(
+		middleware.Recovery(transport.SendPanicError),
+	)
 	router := httprouter.New()
 
 	router.GET("/_health", wrap(chain.ThenFunc(health)))
