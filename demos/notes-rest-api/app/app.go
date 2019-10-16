@@ -11,10 +11,11 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"go.uber.org/zap"
 
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/config"
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/controllers"
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/logging"
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/services"
+	"github.com/steevehook/mdc19/notes-rest-api/config"
+	"github.com/steevehook/mdc19/notes-rest-api/controllers"
+	"github.com/steevehook/mdc19/notes-rest-api/logging"
+	"github.com/steevehook/mdc19/notes-rest-api/repositories"
+	"github.com/steevehook/mdc19/notes-rest-api/services"
 )
 
 type App struct {
@@ -23,24 +24,41 @@ type App struct {
 	Server http.Server
 }
 
-func New() *App {
+func New() (*App, error) {
 	err := logging.InitLogger()
 	if err != nil {
 		log.Fatal(err)
 	}
-	manager, err := config.New()
+
+	configManager, err := config.New()
 	if err != nil {
 		logging.Logger.Error("could not initialize config")
+		return nil, err
 	}
-	notesService := services.NewNotes()
-	routerCfg := controllers.RouterConfig{
+
+	db, err := repositories.DBConnection(repositories.DBOptions{
+		URL:                     configManager.DBUrl(),
+		MaxOpenConnections:      configManager.DBMaxOpenConnections(),
+		MaxIdleConnections:      configManager.DBMaxIdleConnections(),
+		ConnectionMaxLifetime:   configManager.DBConnMaxLifetime(),
+		EnablePreparedStmtCache: configManager.DBEnablePreparedStmtCache(),
+	})
+	if err != nil {
+		logging.Logger.Error("could not connect to the database")
+		return nil, err
+	}
+
+	notesRepo := repositories.NewNotes(db)
+	notesService := services.NewNotes(notesRepo)
+	router := controllers.New(controllers.RouterConfig{
 		NotesService: notesService,
-	}
-	router := controllers.New(routerCfg)
-	return &App{
-		Config: manager,
+	})
+	app := &App{
+		Config: configManager,
 		Router: router,
 	}
+
+	return app, nil
 }
 
 func (app *App) Start() error {

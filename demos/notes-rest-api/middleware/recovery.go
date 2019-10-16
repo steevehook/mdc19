@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/models"
+	"github.com/steevehook/mdc19/notes-rest-api/models"
 )
 
 func Recovery(sendError models.ErrorHandlerFunc) func(h http.Handler) http.Handler {

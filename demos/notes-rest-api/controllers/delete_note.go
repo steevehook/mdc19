@@ -5,7 +5,8 @@ import (
 )
 
 type notesDeleter interface {
-	DeleteNote() error
+	DeleteNoteByID() error
+	DeleteNotes() error
 }
 
 func deleteNote(service notesDeleter) http.HandlerFunc {

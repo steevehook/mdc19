@@ -5,8 +5,8 @@ import (
 	"go.uber.org/zap"
 	"net/http"
 
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/logging"
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/models"
+	"github.com/steevehook/mdc19/notes-rest-api/logging"
+	"github.com/steevehook/mdc19/notes-rest-api/models"
 )
 
 // HTTP constants

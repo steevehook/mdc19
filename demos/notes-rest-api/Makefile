@@ -17,3 +17,7 @@ test-unit:
 test-all:
 	@echo "Running all tests"
 	./coverage.sh --intgr
+
+fmt:
+	@echo "Formatting project code"
+	go fmt ./...

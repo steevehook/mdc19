@@ -4,9 +4,9 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"github.com/justinas/alice"
 
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/middleware"
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/models"
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/transport"
+	"github.com/steevehook/mdc19/notes-rest-api/middleware"
+	"github.com/steevehook/mdc19/notes-rest-api/models"
+	"github.com/steevehook/mdc19/notes-rest-api/transport"
 )
 
 type NotesService interface {

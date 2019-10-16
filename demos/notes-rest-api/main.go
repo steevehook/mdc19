@@ -5,11 +5,14 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/app"
+	"github.com/steevehook/mdc19/notes-rest-api/app"
 )
 
 func main() {
-	application := app.New()
+	application, err := app.New()
+	if err != nil {
+		log.Fatal(err)
+	}
 	go func() {
 		err := application.Start()
 		if err != nil {

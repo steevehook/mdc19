@@ -6,7 +6,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/steevehook/mdc19/dummy-notes-rest-api/logging"
+	"github.com/steevehook/mdc19/notes-rest-api/logging"
 )
 
 type key string

@@ -1,4 +1,12 @@
 listen: "0.0.0.0:8080"
+
+db:
+  url: user:password@tcp(0.0.0.0:3306)/notes
+  max_open_connections: 100
+  max_idle_connections: 10
+  conn_max_lifetime: 120s
+  enable_prepared_stmt_cache: true
+
 external:
   service1: "http://service1.com"
   service2: "http://service2.com"
