@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"gobot.io/x/gobot/platforms/dji/tello"
 	"log"
 
 	"github.com/veandco/go-sdl2/sdl"
@@ -9,7 +10,7 @@ import (
 
 var joysticks [16]*sdl.Joystick
 
-func run() int {
+func run(drone *tello.Driver) int {
 	var event sdl.Event
 	var running bool
 
@@ -28,9 +29,9 @@ func run() int {
 			case *sdl.QuitEvent:
 				running = false
 			case *sdl.JoyAxisEvent:
-				AxisSwitch(t)
+				AxisSwitch(t, drone)
 			case *sdl.JoyButtonEvent:
-				ButtonSwitch(t)
+				ButtonSwitch(t, drone)
 			case *sdl.JoyBallEvent:
 				fmt.Printf("[%d ms] Ball:%d\txrel:%d\tyrel:%d\n", t.Timestamp, t.Ball, t.XRel, t.YRel)
 			case *sdl.JoyHatEvent:
