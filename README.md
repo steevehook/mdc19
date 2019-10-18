@@ -65,6 +65,7 @@ Enjoy!
 - [Race conditions](https://github.com/steevehook/mdc19/blob/master/examples/race-conditions)
 - [Deadlock](https://github.com/steevehook/mdc19/blob/master/examples/deadlock)
 - [Deadlock Fix](https://github.com/steevehook/mdc19/blob/master/examples/deadlock-fix)
+- [Async/await](https://github.com/steevehook/mdc19/blob/master/examples/async-await)
 - [Channels - FAN IN / FAN OUT](https://github.com/steevehook/mdc19/blob/master/examples/channels-fan-in-fan-out)
 - [HTTP](https://github.com/steevehook/mdc19/blob/master/examples/http)
 - [TCP](https://github.com/steevehook/mdc19/blob/master/examples/tcp)
